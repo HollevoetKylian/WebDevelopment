@@ -1,8 +1,5 @@
 .checklist{
-    list-style-type: none;
-    list-style-image:url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.veryicon.com%2Ficons%2Fsystem%2Fdan_system%2Fcheckbox-1.html&psig=AOvVaw1UUo9GyDqEkqGZYVFIPSX1&ust=1762768433525000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDQqa7m5JADFQAAAAAdAAAAABAL");
-}
+    background-image: url("LABO 6/Opdracht 6/img/checkbox-4-16.png")}
 .checked{
-    list-style-type:none;
-    list-style-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Ficon-icons.com%2Ficon%2Fcheckbox%2F149960&psig=AOvVaw1UUo9GyDqEkqGZYVFIPSX1&ust=1762768433525000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPDQqa7m5JADFQAAAAAdAAAAABAV");
+    background-image: url("LABO 6/Opdracht 6/img/checkbox-20-16.png")
 }
