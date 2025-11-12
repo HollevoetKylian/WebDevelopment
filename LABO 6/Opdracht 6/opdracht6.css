@@ -1,5 +1,5 @@
 .checklist{
-    background-image: url("img/checkbox-4-16.png")}
+    list-style-image: url("img/checkbox-4-16.png")}
 .checked{
-    background-image: url("img/checkbox-20-16.png")
+    list-style-image: url("img/checkbox-20-16.png")
 }
