@@ -1,7 +1,37 @@
-header{
+body{
+    margin:0 auto;
+}
+section>header{
     background-repeat: no-repeat;
     background-image: url("../header.jpg");
+    padding-bottom: 2rem;
+    background-size: cover;
+}
+header h1{
+    margin:0;
+    padding:0.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 article{
-    background-color:grey;
+    background-color:lightgray;
+}
+h1{
+    color:white;
+}
+h2{
+    text-decoration-line: underline;
+    margin:0.225rem;
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+nav a{
+    color:mediumspringgreen;
+    text-decoration:none;
+    padding:0.3rem;
+}
+nav{
+    background-color:#444444;
+}
+article{
+    margin-top:0.125rem;
 }
