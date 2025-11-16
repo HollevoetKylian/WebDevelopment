@@ -1,0 +1,33 @@
+/* stijl voor de vrienden tabel */
+.vriendentabel {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    min-width: 600px;
+    border: 1px solid #bdbdbd;
+}
+
+.vriendentabel thead th {
+    background: #4A76A8;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #2e4d6c;
+}
+
+.vriendentabel tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+/* afwisselende rijen */
+.vriendentabel tbody tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* hover effect */
+.vriendentabel tbody tr:hover {
+    background: #dce7f5;
+    transition: 0.2s;
+}
