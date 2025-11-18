@@ -67,3 +67,44 @@ ul li:hover {
     padding-left: 4px;
     transition: 0.2s;
 }
+/* ====== Extra styling voor band-afbeeldingen ====== */
+ul ul img {
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    display: block;
+    margin-top: 8px;
+    box-shadow: 0 0 10px rgba(179, 0, 0, 0.4);
+}
+
+ul ul img:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+/* ====== Sub-lijst voor bands (favoriete muziek) ====== */
+ul ul {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #0f0f0f;
+    border: 1px solid #2b2b2b;
+    border-radius: 6px;
+}
+
+ul ul li {
+    margin-bottom: 25px;
+}
+
+/* ====== Bandlinks visueel iets sterker ====== */
+ul ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.muziek{
+    color: #b30000;
+}
+
+
+
