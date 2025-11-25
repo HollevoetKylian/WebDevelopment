@@ -36,20 +36,23 @@ h2 {
     padding: 5px;
 }
 
-#elixirs {
-    width: 20%;
-    float: none;
-    display: block;
-    border-width: 3px;
-    border-color: #a7cece;
+#elixirs{
+    text-align:center;
+    float: right;
+    width: calc(95% - 75%);
+    margin-right: 20px;
+    background-image: url('../images/cocktail.gif');
+    background-repeat: repeat-x;
     border-style: solid;
-    text-align: center;
+    border-color: RGB(0, 126, 126);
+    box-sizing: border-box;
 }
 
 #content {
     width: 75%;
     display: inline-block;
     float: left;
+    border-image: url("LABO 8/Opdracht cocktail bar/begin_cocktail_bar/images/cocktail.gif");
 }
 
 
