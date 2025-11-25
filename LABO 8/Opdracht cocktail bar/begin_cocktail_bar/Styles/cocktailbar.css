@@ -1,44 +1,90 @@
-body{
-    margin:auto;
-    width:95%;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:1.2em;
+body {
+    margin: auto;
+    width: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
 }
-h1,h2{
-    color:RGB(0,126,126);
-}
-h1{
-    font-size:150%;
-}
-h2{
-    font-size:130%;
-}
-#elexirs h1, #elexirs h2{
-    color:red;
-}
-footer{
-    font-size:50%;
-}
-#elexirs a:hover{
-    background-color:brown;
-}
-#elexirs p{
-    padding:10px;
-}
-#elixirs{
-    display:inline-block;
-    width:30%;
-    float : right;
-}
-#content{
-    width:70%;
-    display:inline-block;
-    float:left;
-}
-#guarantee{
-    color:RGB(44,44,44);
-    background-color: #a7cece;
-}
-#imgHeader{
 
+h1, h2 {
+    color: RGB(0, 126, 126);
+}
+
+h1 {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+
+
+#elixirs h1, #elixirs h2 {
+    color: red;
+}
+
+
+#elixirs img {
+    width: 75px;
+    height: auto;
+}
+
+#elixirs a:hover {
+    background-color: brown;
+}
+
+#elixirs p {
+    padding: 5px;
+}
+
+#elixirs {
+    width: 20%;
+    float: none;
+    display: block;
+    border-width: 3px;
+    border-color: #a7cece;
+    border-style: solid;
+    text-align: center;
+}
+
+#content {
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+
+
+#guarantee {
+    color: RGB(44, 44, 44);
+    background-color: #a7cece;
+    margin: 30px;
+    padding: 20px;
+    border: 1px dotted white;
+}
+
+#imgHeader {
+    width: 200px;
+    height: 100px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    font-size: 50%;
+    clear: both;
+    text-align: center;
+}
+
+.cd {
+    font-style: italic;
+}
+
+.artist {
+    font-weight: bold;
+}
+
+#imgSter{
+    width:50px;
+    height:50px;
 }
