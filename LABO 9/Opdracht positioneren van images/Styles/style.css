@@ -1,0 +1,16 @@
+article{
+    border:black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 1.25em;
+    float: left;
+}
+article:nth-child(odd) img{
+    float: left;
+}
+img{
+    float: right;
+    padding: 10px;
+}
