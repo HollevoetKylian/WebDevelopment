@@ -1,0 +1,23 @@
+.columnLG{
+    background-color: lightgray;
+}
+.columnDG{
+    background-color:darkgray;
+}
+.box{
+    height:300px;
+    width:300px;
+    margin:20px;
+}
+@media screen and (min-width: 768px){
+    .small{
+        height:200px;
+    }
+}
+@media screen and (max-width: 768px){
+    .box{
+        margin-right:0;
+        height: 300px;
+        width:300px;
+    }
+}
