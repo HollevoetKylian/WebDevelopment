@@ -1,0 +1,132 @@
+body {
+    background-color: #0b0b0b;
+    color: #e6e6e6;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Impact", "Haettenschweiler", "Arial Black", sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 40px;
+    color: #b30000;
+    text-align: center;
+    border-bottom: 3px solid #b30000;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #b30000;
+    border-left: 5px solid #b30000;
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #8b0000;
+}
+
+a {
+    color: #b30000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff1a1a;
+    text-shadow: 0 0 8px #ff1a1a;
+}
+
+ul li {
+    margin-bottom: 12px;
+    line-height: 1.4em;
+}
+
+section, ul {
+    background-color: #111;
+    padding: 15px;
+    border: 1px solid #2b2b2b;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+
+ul li:hover {
+    background-color: #1a1a1a;
+    padding-left: 4px;
+    transition: 0.2s;
+}
+
+ul ul img {
+    width: 100%;
+    max-width: 350px;
+    border: 2px solid #b30000;
+    border-radius: 8px;
+    display: block;
+    margin-top: 8px;
+    box-shadow: 0 0 10px rgba(179, 0, 0, 0.4);
+}
+
+ul ul img:hover {
+    transform: scale(1.02);
+    transition: 0.2s;
+}
+
+ul ul {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #0f0f0f;
+    border: 1px solid #2b2b2b;
+    border-radius: 6px;
+}
+
+ul ul li {
+    margin-bottom: 25px;
+}
+
+ul ul li a {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.muziek{
+    color: #b30000;
+}
+.vriendentabel {
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    min-width: 600px;
+    border: 1px solid #bdbdbd;
+}
+
+.vriendentabel thead th {
+    background: #4A76A8;
+    color: white;
+    padding: 10px;
+}
+
+.vriendentabel tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.vriendentabel tbody tr.alt td {
+    background: #f2f2f2;
+}
+
+.vriendentabel tbody tr:hover td {
+    background: #dce7f5;
+}
+
+.vriendentabel td.onbekend,
+.vriendentabel tr.alt td.onbekend {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
