@@ -17,11 +17,48 @@
 }
 .block2{
     background-color: darkslateblue;
+    grid-row: 1/2;
 }
 .block3{
     background-color: #4A76A8;
+    grid-row: 3/4;
 }
-.block4{
+.block4 {
     background-color: aquamarine;
+    grid-row: 4/5;
+}
+@media screen and (min-width: 772px){
+    .block1{
+        grid-row: 1/2;
+    }
+    .block2{
+        grid-row: 3/4;
+    }
+    .block3{
+        grid-row: 2/3;
+    }
+}
+@media screen and (min-width: 992px){
+    .grid-container{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        grid-template-rows:repeat(3,auto);
+        gap:20px;
+    }
+    .block1{
+        grid-column: 1/4;
+    }
+    .block2{
+        grid-row: 2/3;
+        grid-column: 1/4;
+    }
+    .block3{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .block4{
+        grid-row: 3/4;
+        grid-column: 2/4;
+    }
 }
 
