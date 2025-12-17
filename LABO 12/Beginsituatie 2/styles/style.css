@@ -1,0 +1,35 @@
+html {
+    background-color: #333;
+    font-family: helvetica;
+}
+
+* {
+    padding: 10px;
+}
+main{
+    background-color: grey;
+}
+header, footer, a{
+    background-color: #ddaa00;
+}
+nav{
+    background-color: #ccc;
+    padding:5px 2px;
+}
+body{
+    font-size:1em;
+    margin:5px;
+}
+section{
+    margin:5px;
+}
+nav a{
+    margin: 0 5px;
+}
+h1{
+    margin:0;
+}
+img{
+    padding:0;
+}
+
