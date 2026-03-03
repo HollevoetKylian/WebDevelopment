@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="#" method="post">
+
+    <fieldset>
+        <legend>Persoonlijke informatie</legend>
+        <div>
+            <label for="voornaam">Voornaam*:</label>
+            <input type="text" id="voornaam" name="voornaam" placeholder="Your first name" required>
+        </div>
+        <div>
+            <label for="familienaam">Familienaam*:</label>
+            <input type="text" id="familienaam" name="familienaam" placeholder="Your last name" required>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Sport</legend>
+        <p>Welke sport beoefen je?</p>
+        <div>
+            <input type="checkbox" id="lopen" name="sport" value="lopen">
+            <label for="lopen" style="width: auto;">Lopen</label>
+        </div>
+        <div>
+            <input type="checkbox" id="zwemmen" name="sport" value="zwemmen">
+            <label for="zwemmen" style="width: auto;">Zwemmen</label>
+        </div>
+        <div>
+            <input type="checkbox" id="roeien" name="sport" value="roeien">
+            <label for="roeien" style="width: auto;">Roeien</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Communicatievoorkeur</legend>
+        <p>Hoe kunnen we je bereiken?</p>
+        <div>
+            <input type="radio" id="post" name="contact" value="post">
+            <label for="post" style="width: auto;">Per post</label>
+        </div>
+        <div>
+            <input type="radio" id="email_optie" name="contact" value="email">
+            <label for="email_optie" style="width: auto;">E-mail</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Favorieten</legend>
+        <div>
+            <label for="film">Favoriete film:</label>
+            <input type="text" id="film" name="film">
+        </div>
+        <div>
+            <label for="quote">Favoriete quote:</label>
+            <input type="text" id="quote" name="quote" placeholder="Schrijf je favoriete quote">
+        </div>
+        <div>
+            <label for="eten">Favoriete eten:</label>
+            <select id="eten" name="eten" size="3">
+                <option value="hamburger">Hamburger</option>
+                <option value="hot-dog">Hot-dog</option>
+                <option value="pizza">Pizza</option>
+            </select>
+        </div>
+        <div>
+            <label for="browser">Favoriete browser:</label>
+            <input type="text" id="browser" name="browser">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Beveiliging & contact</legend>
+        <div>
+            <label for="wachtwoord">Wachtwoord*:</label>
+            <input type="password" id="wachtwoord" name="wachtwoord" required>
+        </div>
+        <div>
+            <label for="email">E-mailadres:</label>
+            <input type="email" id="email" name="email" placeholder="Geef je e-mailadres in">
+        </div>
+        <div>
+            <label for="site">Favoriete site:</label>
+            <input type="url" id="site" name="site" placeholder="Geef de URL van je favoriete site">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Extra informatie</legend>
+        <div>
+            <label for="getal1">Favoriete getal tussen 1-10:</label>
+            <input type="number" id="getal1" name="getal1" min="1" max="10">
+        </div>
+        <div>
+            <label for="getal2">Favoriete getal tussen 11-1000:</label>
+            <input type="range" id="getal2" name="getal2" min="11" max="1000">
+        </div>
+        <div>
+            <label for="geboortedatum">Wanneer ben je geboren?</label>
+            <input type="date" id="geboortedatum" name="geboortedatum">
+        </div>
+        <div>
+            <label for="postcode">Belgische postcode*:</label>
+            <input type="text" id="postcode" name="postcode" placeholder="9999" pattern="^(1[0-9]{3}|[2-8][0-9]{3}|9[0-8][0-9]{2}|99[0-8][0-9]|999[0-2])$" required>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Varia</legend>
+        <div>
+            <label for="zoeken">Zoeken naar iets:</label>
+            <input type="search" id="zoeken" name="zoeken">
+        </div>
+        <div>
+            <label for="kleur">Wat is je lievelingskleur?</label>
+            <input type="color" id="kleur" name="kleur">
+        </div>
+        <div>
+            <input type="file" id="bestand" name="bestand">
+        </div>
+    </fieldset>
+
+    <button type="submit">Submit</button>
+
+</form>
+<script src="Scripts/javascript.js"></script>
+</body>
+</html>
