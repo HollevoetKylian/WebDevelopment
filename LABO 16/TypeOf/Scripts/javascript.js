@@ -11,6 +11,5 @@ const setup = () => {
 
     let vandaag = new Date();
     console.log("Type of vandaag: " + typeof vandaag);
-
 }
 window.addEventListener("load", setup);
