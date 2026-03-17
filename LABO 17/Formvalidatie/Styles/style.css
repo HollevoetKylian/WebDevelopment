@@ -1,0 +1,17 @@
+/* Velden met een fout krijgen een rood kader  */
+.invalid {
+    border: 2px solid red;
+}
+/* Foutmeldingen rechts van het veld worden rood  */
+.error {
+    color: red;
+    margin-left: 10px;
+    font-weight: bold;
+}
+div {
+    margin-bottom: 15px;
+}
+label {
+    display: inline-block;
+    width: 130px;
+}

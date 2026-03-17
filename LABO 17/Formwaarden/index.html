@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Styles/style.css">
+    <script src="Scripts/javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<form id="formBestelling">
+    <div>
+        <label for="isRoker">Is roker</label>
+        <input type="checkbox" id="isRoker">
+    </div>
+
+    <div>
+        <p>Moedertaal</p>
+        <input type="radio" name="taal" value="nl" id="taalNl" checked> <label for="taalNl">Nederlands</label>
+        <input type="radio" name="taal" value="fr" id="taalFr"> <label for="taalFr">Frans</label>
+        <input type="radio" name="taal" value="en" id="taalEn"> <label for="taalEn">Engels</label>
+    </div>
+
+    <div>
+        <label for="buurland">Favoriete buurland</label>
+        <select id="buurland">
+            <option value="Nederland">Nederland</option>
+            <option value="Frankrijk">Frankrijk</option>
+            <option value="Duitsland">Duitsland</option>
+        </select>
+    </div>
+
+    <div>
+        <label for="bestelling">Bestelling</label><br>
+        <select id="bestelling" multiple size="6">
+            <option value="aardappelen">aardappelen</option>
+            <option value="brood">brood</option>
+            <option value="melk">melk</option>
+            <option value="biefstuk">biefstuk</option>
+            <option value="chips">chips</option>
+            <option value="krant">krant</option>
+        </select>
+    </div>
+
+    <button type="button" id="btnToon">Toon resultaat</button>
+</form>
+
+<script src="Scripts/javascript.js"></script>
+</body>
+</html>
