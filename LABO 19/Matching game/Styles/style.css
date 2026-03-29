@@ -1,0 +1,10 @@
+.card {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 5px;
+    cursor: pointer;
+}
+.hidden { visibility: hidden; } /* Verwijderde kaarten blijven hun plek innemen*/
+.correct { border: 5px solid green; }
+.wrong { border: 5px solid red; }
