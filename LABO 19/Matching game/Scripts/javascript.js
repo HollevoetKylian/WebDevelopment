@@ -2,7 +2,7 @@ let global = {
     AANTAL_HORIZONTAAL: 4,
 AANTAL_VERTICAAL: 3,
 AANTAL_KAARTEN: 6,
-kaarten: ["kaart1.png", "kaart2.png", "kaart3.png", "kaart4.png", "kaart5.png", "kaart6.png"],
+kaarten: ["Images/kaart1.jpg", "Images/kaart2.png", "Images/kaart3.png", "Images/kaart4.png", "Images/kaart5.png", "Images/kaart6.jpg"],
 omgedraaideKaarten: [], // Om te vergelijken
     isBusy: false // Blokkeert klikken tijdens animaties
 };
@@ -54,4 +54,32 @@ const resetTurn = () => {
     global.omgedraaideKaarten = [];
     global.isBusy = false;
     // Check hier ook of er nog kaarten over zijn voor het einde van het spel
+};
+window.addEventListener("load", () => {
+    const btnStart = document.getElementById("btnStart");
+    btnStart.addEventListener("click", setupGame);
+});
+
+const setupGame = () => {
+    const playField = document.getElementById("playField");
+    playField.innerHTML = ""; // Maak het veld leeg
+    global.omgedraaideKaarten = [];
+    global.isBusy = false;
+
+    // 1. Maak een lijst met paren (elke kaart 2x)
+    let speelkaarten = [...global.kaarten, ...global.kaarten];
+
+    // 2. Schud de kaarten (Fisher-Yates shuffle principe)
+    speelkaarten.sort(() => Math.random() - 0.5);
+
+    // 3. Maak de kaart-elementen aan in de HTML
+    speelkaarten.forEach((imagePath) => {
+        const kaartElement = document.createElement("img");
+        kaartElement.src = "images/achterkant.png"; // Start met achterkant
+        kaartElement.dataset.image = imagePath;      // Onthoud de echte afbeelding
+        kaartElement.classList.add("card");
+
+        kaartElement.addEventListener("click", handleCardClick);
+        playField.appendChild(kaartElement);
+    });
 };

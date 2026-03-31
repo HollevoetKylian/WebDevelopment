@@ -1,0 +1,68 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #16213e;
+    height: 55px;
+}
+
+#header h1 { font-size: 1.4rem; }
+#header p  { font-size: 1.1rem; flex: 1; }
+
+#startBtn, #restartBtn {
+    padding: 8px 18px;
+    background-color: #0f3460;
+    color: white;
+    border: 2px solid #e94560;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#startBtn:hover, #restartBtn:hover { background-color: #e94560; }
+
+#playField {
+    width: 600px;
+    height: 800px;
+    position: relative;
+    background-color: #0d0d1a;
+    border: 2px solid #0f3460;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#target {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+    display: none;
+}
+
+#gameOver {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+#gameOverBox {
+    background: #16213e;
+    border: 3px solid #e94560;
+    border-radius: 12px;
+    padding: 40px 60px;
+    text-align: center;
+}
+#gameOverBox h2  { font-size: 2rem; color: #e94560; margin-bottom: 15px; }
+#gameOverBox p   { font-size: 1.3rem; margin-bottom: 25px; }
