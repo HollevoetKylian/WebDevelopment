@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Images/style.css">
+    <script src="Scripts/javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+<div class="color-picker">
+    <div class="colorDemo" style="width: 100px; height: 100px; border: 1px solid #000;"></div>
+
+    Red:   <input type="range" id="r" class="slider" min="0" max="255" value="127">
+    Green: <input type="range" id="g" class="slider" min="0" max="255" value="127">
+    Blue:  <input type="range" id="b" class="slider" min="0" max="255" value="127">
+</div>
+<div class="colorDemo"></div>
+<br>
+<button id="saveBtn">Sla kleur op</button>
+
+<h3>Mijn Palet:</h3>
+<div id="palette" style="display: flex; gap: 10px; flex-wrap: wrap;"></div>
+<script src="Scripts/javascript.js"></script>
+</body>
+</html>
